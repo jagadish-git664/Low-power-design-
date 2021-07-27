@@ -13,16 +13,40 @@ Balancing Density-Delivery-Leakage-Lifetime
 Connecting software level activity to device level issues
 Voltage Aware Boolean Equations for CMOS
 Island ordering and how to shutdown/wakeup complex systems
-Why mobile systems explode (thermal runaway)
 Rules for verifying low power designs
-Impact of IOT on low power design
+
 
 
 
 Economics of Power and Energy
 
  Power has been a second order convern in chip deisgn next to area and timing . Power budget is one of the most  important design goal of the project. Exceeding the budget can be fatal causing poor reliability due to excessive power density or lesser budgeting than expected or failing to meet required battery life .
+
+Below are the use cases where power will be playing crucial role in terms of device cost and performance. 
+
+Performance 
+ - Reducing power overall will improve performance.
+Cost 
+ - Packaging cost is hightly dependant on the power consumption  . The cost associated with packaging and cooling such devices is prohibitive. Since core power 
+consumption must be dissipated through the packaging, increasingly expensive packaging and cooling strategies are required as chip power consumption increases. 
+Consequently, there is a clear financial advantage to reducing the power consumed in high performance  systems.
  
+Weight 
+ - Power is a measure of how fast an amount of work is done.
+ - Need to carry the energy (Power * Time) you use in case of portable device. 
+ - Energy is heavy for power hunger devices  (Wh/lb) .Lower power means less battery weight
+
+Form Facor 
+   -The size and physical form factor are often a natural consequence of a system’s intended use.Dependign on type of technology node  used and affect power.
+
+Functionality 
+   - how fast your system is performaning.
+
+Context of use 
+  - Optimizing power or energy according to the embedded devices /application that we use , 
+
+Comfort/Safety -
+  - Heating issue should be considered while designing the circuit.
 
 
  Power vs Energy:
@@ -38,6 +62,8 @@ It is also useful to look at the impact of Power v Energy :
 
 As inceate in power increase the heat dissipated which in turn ,  the junction temperature . 
 The  associated packaging/cooling cost rises and mainly  the frequency gets limited thereby reducing performance .
+
+
 
 Comparing Battery:Parameters deciding cost for a battery
 
